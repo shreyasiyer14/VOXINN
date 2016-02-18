@@ -1,4 +1,4 @@
-The MIT License (MIT)
+echo "The MIT License (MIT)
 
 Copyright (c) 2015 Shreyas Iyer
 
@@ -18,4 +18,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE."
+echo "This BASH script file will install the necessary dependencies on your system (Namely Pygame, PyOpenGL, and PyOpenGL_accelerate). Please make sure that youare connected to a stable network, so that the installation doesnt halt midway. "
+sudo apt-get install pygame
+sudo pip install -r requirements.txt

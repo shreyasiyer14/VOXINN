@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: voxinn
+Version: 0.0.1
+Summary: Voxinn is a Voxel based 3D engine, built in OpenGL.
+Home-page: http://packages.python.org/
+Author: Shreyas Iyer
+Author-email: shreyasiyer14@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: 3dgameengine engine opengl
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
