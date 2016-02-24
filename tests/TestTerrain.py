@@ -16,9 +16,12 @@ if __name__ == "__main__":
     terrain.render(ID)
     glEndList()
     angle = 0.0
+    mouse = False
     keymap = {'up':[0,0,1],'down':[0,0,-1],'left':[1,0,0],'right':[-1,0,0]}
     while True:
-        KeyboardEvent(moveList, angle, keymap)
+        mouse = KeyboardEvent(moveList, angle, keymap)
+        if mouse:
+            Control(0.2,0.2)
         window.clear()
         light0 = Light(30,50,20,[1,1,1,1],1)
         light0.bake(GL_LIGHT0)
